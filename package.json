@@ -1,0 +1,32 @@
+{
+  "name": "cblighthouseperftest",
+  "version": "1.0.0",
+  "description": " Generate JSON lightouse report and compare to the last ! ",
+  "main": "lib.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chrome-launcher": "^0.13.4",
+    "glob": "^7.1.6",
+    "lighthouse": "^6.1.1",
+    "yargs": "^15.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinepel/cb-lightouse-report-generator.git"
+  },
+  "keywords": [
+    "lightouse",
+    "report",
+    "performance",
+    "generator"
+  ],
+  "author": "Constantin Boulanger (based on Luke Harrison code)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinepel/cb-lightouse-report-generator/issues"
+  },
+  "homepage": "https://github.com/Sinepel/cb-lightouse-report-generator#readme"
+}
